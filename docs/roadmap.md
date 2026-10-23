@@ -12,14 +12,21 @@
 - Menyusun blueprint UI dan API.
 - Menyiapkan prioritas implementasi berdasarkan status.
 
-## Tahap 2 — Foundation implementation
+## Tahap 2 — Platform and MVP decision lock
+- Finalize identity platform: Cloudflare-based auth / OIDC integration.
+- Finalize deployment target: Cloudflare Pages + Workers.
+- Confirm MVP includes offline-first sync and donor/public access.
+- Finalize approval model: Verifikator + Pimpinan approval flow.
+- Confirm order of implementation: incident core -> assessment -> LPJ.
+
+## Tahap 3 — Foundation implementation
 - Struktur repo implementation baru.
 - Setup framework dan toolchain.
 - Setup environment dan repo baseline.
 - Menyiapkan auth dan RBAC foundation.
 - Menyiapkan persiapan testing dan CI.
 
-## Tahap 3 — Domain core
+## Tahap 4 — Domain core
 - Insiden
 - Assessment
 - Volunteering
@@ -28,14 +35,14 @@
 - Donasi
 - Keuangan
 
-## Tahap 4 — LPJ & reporting
+## Tahap 5 — LPJ & reporting
 - LPJ generation
 - Audit trail
 - Rekonsiliasi
 - Reporting final
 - Integrasi redaksi data sensitif
 
-## Tahap 5 — Hardening
+## Tahap 6 — Hardening
 - Offline sync
 - PWA stabil
 - security review
@@ -46,6 +53,6 @@
 - timeline final implementation berdasarkan prioritas bisnis
 - prioritas per modul berdasarkan kebutuhan operasional
 - sumber data eksternal / integrasi yang dibutuhkan
-- provider autentikasi final
-- deployment final
-- strategi geospasial
+- exact authentication product detail inside Cloudflare ecosystem
+- exact conflict strategy for offline sync and duplicate handling
+- exact donor/public boundary per module
