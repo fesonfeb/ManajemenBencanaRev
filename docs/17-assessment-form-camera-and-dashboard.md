@@ -72,8 +72,10 @@ Form dibagi ke dalam beberapa bagian/sections agar mudah dipahami:
    - listrik / komunikasi
    - kesehatan / fasilitas medis
    - kondisi pasokan logistik
+   - Siapa saja yang sudah hadir dalam penanganan bencana dilokasi
 
 5. Kebutuhan prioritas
+   - kebutuhan komunikasi / internet
    - kebutuhan makanan
    - kebutuhan obat-obatan
    - kebutuhan logistik
